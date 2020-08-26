@@ -1,0 +1,34 @@
+{
+  "name": "MagattiSantiago",
+  "displayName": "MagattiSantiago",
+  "expo": {
+    "name": "MagattiSantiago",
+    "slug": "MagattiSantiago",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "bundleIdentifier": "com.JorelDev.MagattiSantiago",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.JorelDev.MagattiSantiago"
+    }
+  }
+}
